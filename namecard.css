@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&family=Montserrat:wght@100&family=Nunito:wght@200;300;400;600;700&family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;1,300&family=Sofia+Sans+Semi+Condensed:ital,wght@1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+.container-1 {
+    width: 100%;
+    background:
+        #FF5737;
+
+
+}
+
+/* nav-bar style start here */
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo>div {
+    font-size: 10px;
+    font-family: arial;
+    font-weight: bold;
+    color: #292929;
+}
+
+.nav-logo img {
+    width: 25px;
+    height: 25px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 30px;
+    font-family: arial;
+    color: black;
+}
+
+.nav-btn button {
+    width: 105px;
+    height: 35px;
+    background: #F1BEB3;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    font-family: calibri;
+}
+
+.nav-btn button:hover {
+    background: #0f243e;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid gray;
+}
+
+
+
+.rikie{
+    margin-top: 40px;
+display: flex;
+flex-wrap: wrap;
+gap: 50px;
+justify-content: center;
+}
+
+
+.card {
+    background-color: white;
+    width: 320px;
+    height: 400px;
+    padding: 1.5em 0.5em 0.5em;
+    text-align: center;
+    border-radius: 2em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    /* border: 1px solid black; */
+}
+
+.card .img-top{
+    width: 60%;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.card .button1 {
+    margin-top: 10px;
+    width: 105px;
+    height: 35px;
+    background: #FF5737;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    font-family: calibri;
+    border-radius: 2em;
+  padding: 0.5em 1.5em;
+    
+
+}
+
+.card button:hover {
+    background: #0f243e;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid gray;
+}
+
+h4 .span1{
+    color: red;
+}
+h4 .span2{
+    color: #FF5737;
+}
